@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLy"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <EditText
+            android:id="@+id/ptName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="@string/nombre"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="5dp"
+            android:textColorHint="#4A148C"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/ptLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="@string/apellido"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="5dp"
+            android:textColorHint="#4A148C"
+            tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/ptAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="@string/edad"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="5dp"
+            android:textColorHint="#4A148C"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/ptPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="@string/celular"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="5dp"
+            android:textColorHint="#4A148C"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/ptMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="@string/email"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="5dp"
+            android:textColorHint="#4A148C"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/ptCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="@string/ciudad"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="5dp"
+            android:textColorHint="#4A148C"
+            tools:ignore="TextContrastCheck" />
+
+        <Spinner
+            android:id="@+id/spnGender"
+            android:layout_width="288dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/border"
+            android:entries="@array/GenderChose" />
+
+        <EditText
+            android:id="@+id/ptMovie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="@string/pelicula_favorita"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="5dp"
+            android:textColorHint="#4A148C"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/border"
+            android:text="@string/enviar" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

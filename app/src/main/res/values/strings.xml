@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">corte2RmkRegistroContactoo</string>
+    <string name="addDoc">Agregar Contacto</string>
+    <string name="nombre">Nombre: </string>
+    <string name="apellido">Apellido:</string>
+    <string name="edad">Edad:</string>
+    <string name="celular">Celular:</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="email">Email:</string>
+    <string name="pelicula_favorita">Pelicula Favorita:</string>
+    <string name="enviar">Enviar!</string>
+    <string name="gender">Gender</string>
+    <string name="name">Name</string>
+    <string name="numero">Numero</string>
+    <string name="_1">1</string>
+
+</resources>
